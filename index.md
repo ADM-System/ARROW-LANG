@@ -41,14 +41,85 @@ Its syntax is designed to be:
 
 # Philosophy
 
-Arrow follows a few simple rules.
+Arrow was designed around a simple idea:
 
-- Data should flow.
-- Functions should transform data.
-- The language should remain small.
-- The Standard Library should provide the power.
+> **Data flows through the program.**
+
+Instead of focusing on objects or classes, Arrow focuses on transformations.
+
+```arrow
+data
+    -> function
+    -> function
+    -> function
+```
+
+Arrow aims to be:
+
+- Simple
+- Readable
+- Minimal
+- Consistent
+
+Arrow intentionally avoids:
+
+- Complex Object-Oriented Programming
+- Dozens of keywords
+- Unnecessary syntax
+- Hidden behavior
 
 ---
+
+# Hello World
+
+```arrow
+"Hello, Arrow!" <<
+```
+
+---
+
+# Variables
+
+Assignment
+
+```arrow
+10 >> x
+
+"Andrea" >> name
+
+true >> online
+```
+
+Reading
+
+```arrow
+x <<
+```
+
+---
+
+# Input
+
+User input
+
+```arrow
+$> "Name: " >> name
+```
+
+Command line arguments
+
+```arrow
+£> 0 >> input
+
+£> 1 >> output
+```
+
+Execution
+
+```bash
+python arrow.py program.arr input.txt output.txt
+```
+
 
 # Roadmap
 
