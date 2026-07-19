@@ -162,7 +162,7 @@ python arrow.py program.arr input.txt output.txt
 
 The complete source code is available on GitHub.
 
-👉 **https://github.com
+👉 **https://github.com/ADM-System/ARROW-LANG
 
 ---
 
